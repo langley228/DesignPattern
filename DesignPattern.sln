@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp", "src\DesignPattern\DesignPatternCSharp.csproj", "{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesignPatternVBNet", "src\DesignPatternVBNet\DesignPatternVBNet.vbproj", "{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DesignPatternPy", "src\DesignPatternPy\DesignPatternPy.pyproj", "{CEF48D99-8085-4DCB-ABE0-7A55BF04C1EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF48D99-8085-4DCB-ABE0-7A55BF04C1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF48D99-8085-4DCB-ABE0-7A55BF04C1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28F7AD99-3EF6-41E0-8E54-25AF33060B54}
+	EndGlobalSection
+EndGlobal

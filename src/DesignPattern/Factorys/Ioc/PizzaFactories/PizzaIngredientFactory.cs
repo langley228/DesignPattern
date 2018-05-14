@@ -10,7 +10,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.PizzaFactories
 {
     public class PizzaIngredientFactory : IPizzaIngredientFactory
     {
-        private readonly string _createNamespace = "DesignPatternCSharp.Factorys.Ioc";
+        private static readonly string _createNamespace = "DesignPatternCSharp.Factorys.Ioc";
         private readonly PizzaElement _pizzaElement;
         public PizzaIngredientFactory(PizzaElement pizzaElement)
         {
@@ -35,7 +35,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.PizzaFactories
         {
             return Create("Sauces", _pizzaElement.Sauce) as ISauce;
         }
-        private object Create(string namespaceType, string name)
+        private static object Create(string namespaceType, string name)
         {
             if (string.IsNullOrEmpty(name))
                 return null;

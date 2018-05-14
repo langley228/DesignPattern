@@ -12,9 +12,8 @@ namespace DesignPatternCSharp.Factorys.Ioc
     {
         public static void Sample()
         {
-            var c = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-            PizzaStoreData s = (PizzaStoreData)c.GetSection("PizzaStoreData");
-            foreach (PizzaStoreElement pizzaStore in s.PizzaStores)
+            PizzaStoreData pizzaStoreData = (PizzaStoreData)ConfigurationManager.GetSection("PizzaStoreData");
+            foreach (PizzaStoreElement pizzaStore in pizzaStoreData.PizzaStores)
             {
                 Console.WriteLine($"PizzaStore: {pizzaStore.DisplayName}");
                 pizzaStore.OrderPizza("cheese");

@@ -70,9 +70,9 @@
     <Compile Include="Factorys\Ioc\Cheeses\ReggianoCheese.cs" />
     <Compile Include="Factorys\Ioc\Clamses\FreshClams.cs" />
     <Compile Include="Factorys\Ioc\Clamses\FrozenClams.cs" />
+    <Compile Include="Factorys\Ioc\Configuration\PizzaElement.cs" />
     <Compile Include="Factorys\Ioc\Configuration\PizzaStoreCollection.cs" />
     <Compile Include="Factorys\Ioc\Configuration\PizzaCollection.cs" />
-    <Compile Include="Factorys\Ioc\Configuration\PizzaElement.cs" />
     <Compile Include="Factorys\Ioc\Configuration\PizzaStoreData.cs" />
     <Compile Include="Factorys\Ioc\Configuration\PizzaStoreElement.cs" />
     <Compile Include="Factorys\AbstractFactories\Doughs\ThickCrustDough.cs" />

@@ -17,7 +17,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.Pizzas
             _pizzaIngredientFactory = new PizzaIngredientFactory(pizzaElement);
         }
 
-        public string Name { get; set; }
+        public string Name { get; protected set; }
         public IDough Dough { get; protected set; }
         public ISauce Sauce { get; protected set; }
         public ICheese Cheese { get; protected set; }

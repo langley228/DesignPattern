@@ -38,20 +38,6 @@ namespace DesignPatternCSharp.Factorys.Ioc.Configuration
             pizza.Box();
             return pizza;
         }
-        public void Bake()
-        {
-            Console.WriteLine("Bake for 25 minutes");
-        }
-
-        public void Cut()
-        {
-            Console.WriteLine("Cutting the pizza into diagnol slices");
-        }
-
-        public void Box()
-        {
-            Console.WriteLine("Placing pizza in official PizzaStore box......");
-        }
         protected Pizza CreatePizza(string type)
         {
             Pizza pizza = new Pizza(this.Pizzas[type]);

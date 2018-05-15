@@ -9,7 +9,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.Configuration
 {
     public class PizzaCollection : ConfigurationElementCollection
     {
-        public new PizzaElement this[string key]
+        public PizzaElement this[string key]
         {
             get { return (PizzaElement)this.BaseGet(key); }
         }

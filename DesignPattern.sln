@@ -3,27 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesignPatternVBNet", "src\DesignPatternVBNet\DesignPatternVBNet.vbproj", "{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesignPattern.VBNet", "src\DesignPattern.VBNet\DesignPattern.VBNet.vbproj", "{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp", "src\DesignPatternCSharp\DesignPatternCSharp.csproj", "{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp", "src\DesignPattern.CSharp\DesignPattern.CSharp.csproj", "{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Commands", "src\DesignPatternCSharp.Commands\DesignPatternCSharp.Commands.csproj", "{F99748E7-2D70-46A8-AEEC-B2C5A6292AA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Commands", "src\DesignPattern.CSharp.Commands\DesignPattern.CSharp.Commands.csproj", "{F99748E7-2D70-46A8-AEEC-B2C5A6292AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Decorates", "src\DesignPatternCSharp.Decorates\DesignPatternCSharp.Decorates.csproj", "{D75CA164-02F6-48A2-9303-864AFD2EDFC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Decorates", "src\DesignPattern.CSharp.Decorates\DesignPattern.CSharp.Decorates.csproj", "{D75CA164-02F6-48A2-9303-864AFD2EDFC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Factorys.AbstractFactories", "src\DesignPatternCSharp.Factorys.AbstractFactories\DesignPatternCSharp.Factorys.AbstractFactories.csproj", "{D3BDD805-8AE0-4C9E-BFC2-671FC49ABC5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Factorys.AbstractFactories", "src\DesignPattern.CSharp.Factorys.AbstractFactories\DesignPattern.CSharp.Factorys.AbstractFactories.csproj", "{D3BDD805-8AE0-4C9E-BFC2-671FC49ABC5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Factorys.Ioc", "src\DesignPatternCSharp.Factorys.Ioc\DesignPatternCSharp.Factorys.Ioc.csproj", "{BD78D29C-2D2B-4E04-A7DE-3A7527F82C60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Factorys.Ioc", "src\DesignPattern.CSharp.Factorys.Ioc\DesignPattern.CSharp.Factorys.Ioc.csproj", "{BD78D29C-2D2B-4E04-A7DE-3A7527F82C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Factorys.SimpleFactories", "src\DesignPatternCSharp.Factorys.SimpleFactories\DesignPatternCSharp.Factorys.SimpleFactories.csproj", "{8E9E4AA6-8FC1-4873-8E09-E79F60B16721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Factorys.SimpleFactories", "src\DesignPattern.CSharp.Factorys.SimpleFactories\DesignPattern.CSharp.Factorys.SimpleFactories.csproj", "{8E9E4AA6-8FC1-4873-8E09-E79F60B16721}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Observers", "src\DesignPatternCSharp.Observers\DesignPatternCSharp.Observers.csproj", "{A9FD1E8D-C72F-43E6-9B0E-E0B447D0B374}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Observers", "src\DesignPattern.CSharp.Observers\DesignPattern.CSharp.Observers.csproj", "{A9FD1E8D-C72F-43E6-9B0E-E0B447D0B374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Sigletons", "src\DesignPatternCSharp.Sigletons\DesignPatternCSharp.Sigletons.csproj", "{C314E48F-9059-4E60-A885-A43F8E2F60CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Sigletons", "src\DesignPattern.CSharp.Sigletons\DesignPattern.CSharp.Sigletons.csproj", "{C314E48F-9059-4E60-A885-A43F8E2F60CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Strategys.Oop", "src\DesignPatternCSharp.Strategys.Oop\DesignPatternCSharp.Strategys.Oop.csproj", "{DB575048-80B5-4ECC-8958-566FE15DC18E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Strategys.Oop", "src\DesignPattern.CSharp.Strategys.Oop\DesignPattern.CSharp.Strategys.Oop.csproj", "{DB575048-80B5-4ECC-8958-566FE15DC18E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatternCSharp.Strategys.OopAndFp", "src\DesignPatternCSharp.Strategys.OopAndFp\DesignPatternCSharp.Strategys.OopAndFp.csproj", "{3420AB15-34CB-420D-A2D5-FF6979C8972F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp.Strategys.OopAndFp", "src\DesignPattern.CSharp.Strategys.OopAndFp\DesignPattern.CSharp.Strategys.OopAndFp.csproj", "{3420AB15-34CB-420D-A2D5-FF6979C8972F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

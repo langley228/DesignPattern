@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DesignPattern.CSharp</RootNamespace>
+    <AssemblyName>DesignPattern.CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <BaseIntermediateOutputPath>..\..\build\obj\$(AssemblyName)\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)\</IntermediateOutputPath>
+    <OutputPath>..\..\build\bin\$(AssemblyName)\$(Configuration)\</OutputPath>
+    <DocumentationFile>..\..\build\bin\DesignPatternCSharp\Debug\DesignPattern.CSharp.xml</DocumentationFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <BaseIntermediateOutputPath>..\..\build\obj\$(AssemblyName)\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)\</IntermediateOutputPath>
+    <OutputPath>..\..\build\bin\$(AssemblyName)\$(Configuration)\</OutputPath>
+    <DocumentationFile>$(OutputPath)$(AssemblyName).XML</DocumentationFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.CSharp.Commands\DesignPattern.CSharp.Commands.csproj">
+      <Project>{f99748e7-2d70-46a8-aeec-b2c5a6292aa8}</Project>
+      <Name>DesignPattern.CSharp.Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Decorates\DesignPattern.CSharp.Decorates.csproj">
+      <Project>{d75ca164-02f6-48a2-9303-864afd2edfc6}</Project>
+      <Name>DesignPattern.CSharp.Decorates</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Factorys.AbstractFactories\DesignPattern.CSharp.Factorys.AbstractFactories.csproj">
+      <Project>{d3bdd805-8ae0-4c9e-bfc2-671fc49abc5e}</Project>
+      <Name>DesignPattern.CSharp.Factorys.AbstractFactories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Factorys.Ioc\DesignPattern.CSharp.Factorys.Ioc.csproj">
+      <Project>{bd78d29c-2d2b-4e04-a7de-3a7527f82c60}</Project>
+      <Name>DesignPattern.CSharp.Factorys.Ioc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Factorys.SimpleFactories\DesignPattern.CSharp.Factorys.SimpleFactories.csproj">
+      <Project>{8e9e4aa6-8fc1-4873-8e09-e79f60b16721}</Project>
+      <Name>DesignPattern.CSharp.Factorys.SimpleFactories</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Observers\DesignPattern.CSharp.Observers.csproj">
+      <Project>{a9fd1e8d-c72f-43e6-9b0e-e0b447d0b374}</Project>
+      <Name>DesignPattern.CSharp.Observers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Sigletons\DesignPattern.CSharp.Sigletons.csproj">
+      <Project>{c314e48f-9059-4e60-a885-a43f8e2f60cd}</Project>
+      <Name>DesignPattern.CSharp.Sigletons</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Strategys.OopAndFp\DesignPattern.CSharp.Strategys.OopAndFp.csproj">
+      <Project>{3420ab15-34cb-420d-a2d5-ff6979c8972f}</Project>
+      <Name>DesignPattern.CSharp.Strategys.OopAndFp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DesignPattern.CSharp.Strategys.Oop\DesignPattern.CSharp.Strategys.Oop.csproj">
+      <Project>{db575048-80b5-4ecc-8958-566fe15dc18e}</Project>
+      <Name>DesignPattern.CSharp.Strategys.Oop</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

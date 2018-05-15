@@ -23,7 +23,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.Configuration
             get { return (string)this["DisplayName"]; }
             set { this["DisplayName"] = value; }
         }
-        [ConfigurationProperty("Pizzas"), ConfigurationCollection(typeof(PizzaCollection))]
+        [ConfigurationProperty("Pizzas"), ConfigurationCollection(typeof(PizzaCollection), AddItemName = "Pizza")]
         public PizzaCollection Pizzas
         {
             get { return this["Pizzas"] as PizzaCollection; }

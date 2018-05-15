@@ -9,7 +9,7 @@ namespace DesignPatternCSharp.Factorys.Ioc.Configuration
 {
     public class PizzaStoreData : ConfigurationSection
     {
-        [ConfigurationProperty("PizzaStores"), ConfigurationCollection(typeof(PizzaStoreElement))]
+        [ConfigurationProperty("PizzaStores"), ConfigurationCollection(typeof(PizzaStoreElement), AddItemName = "PizzaStore")]
         public PizzaStoreCollection PizzaStores
         {
             get { return this["PizzaStores"] as PizzaStoreCollection; }

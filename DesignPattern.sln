@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesignPattern.VBNet", "src\DesignPattern.VBNet\DesignPattern.VBNet.vbproj", "{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DesignPattern.VbDotNet", "src\DesignPattern.VbDotNet\DesignPattern.VbDotNet.vbproj", "{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CSharp", "src\DesignPattern.CSharp\DesignPattern.CSharp.csproj", "{591801BF-A11E-4A2A-9B0D-C6B0CAD520EE}"
 EndProject

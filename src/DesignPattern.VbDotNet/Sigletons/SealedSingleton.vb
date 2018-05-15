@@ -1,5 +1,5 @@
 ﻿
-Namespace DesignPattern.VBNet.Sigletons
+Namespace DesignPattern.VbDotNet.Sigletons
     '率先實體化 VB.Net
     Public NotInheritable Class SealedSingleton
         Private Shared instance As SealedSingleton = New SealedSingleton()

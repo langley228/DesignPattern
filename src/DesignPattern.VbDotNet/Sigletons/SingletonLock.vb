@@ -1,5 +1,5 @@
 ﻿
-Namespace DesignPattern.VBNet.Sigletons
+Namespace DesignPattern.VbDotNet.Sigletons
     '雙重上鎖 VB.Net
     Public Class SingletonLock
         Private Shared instance As SingletonLock

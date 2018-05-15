@@ -6,9 +6,9 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BD6CC482-F918-4249-A6B2-A9E1EEA8FDFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>DesignPattern.VBNet.Module1</StartupObject>
-    <RootNamespace>DesignPattern.VBNet</RootNamespace>
-    <AssemblyName>DesignPattern.VBNet</AssemblyName>
+    <StartupObject>DesignPattern.VbDotNet.Module1</StartupObject>
+    <RootNamespace>DesignPattern.VbDotNet</RootNamespace>
+    <AssemblyName>DesignPattern.VbDotNet</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>Console</MyType>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>

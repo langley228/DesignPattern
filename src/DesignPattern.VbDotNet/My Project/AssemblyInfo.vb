@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' 檢閱組件屬性的值
 
-<Assembly: AssemblyTitle("DesignPattern.VBNet")>
+<Assembly: AssemblyTitle("DesignPattern.VbDotNet")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("DesignPattern.VBNet")>
+<Assembly: AssemblyProduct("DesignPattern.VbDotNet")>
 <Assembly: AssemblyCopyright("Copyright ©  2018")>
 <Assembly: AssemblyTrademark("")>
 

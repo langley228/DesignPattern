@@ -1,5 +1,5 @@
 ﻿
-Namespace DesignPattern.VBNet.Sigletons
+Namespace DesignPattern.VbDotNet.Sigletons
     '延遲延遲實體化  VB.Net
     Public Class Singleton
         Private Shared singleton As Singleton
